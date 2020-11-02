@@ -9,3 +9,8 @@ end
 def input_to_index(i)
   choice = (i.to_i) - 1
 end
+
+def move(board, choice, player_character)
+  board[choice] = player_character
+  return board
+end
