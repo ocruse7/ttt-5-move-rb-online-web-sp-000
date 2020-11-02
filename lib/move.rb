@@ -11,7 +11,7 @@ def input_to_index(input)
   return choice
 end
 
-def move(board, choice, player_character)
-  board[choice] = player_character
+def move(board, choice)
+  board[choice] = "X"
   return board
 end
